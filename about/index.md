@@ -1,25 +1,13 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, responsive]
+title: אודות "שוקה בשוק"
 modified: 2014-08-08T20:53:07.573882-04:00
-comments: true
-image:
-  feature: sample-image-2.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+comments: false
 ---
 
-Minimal Mistakes is responsive Jekyll theme with large featured images and solid typography. As the name implies the styling is fairly minimal to make it easier for you to build on top of.
+אודות "שוקה בשוק"
+לי קוראים שוקה, ואני אזרח שאכפת לו. יש לי מספר תארים אקדמאים אבל לא בכלכלה. הרבה פעמים נדמה לי שכלכלנים משתמשים בשפה גבוהה כדי שלא ממש נבין... לרוב נראה גם שלעיתונות הכלכלית "הממוסדת" יש אג'נדה משלה... נכון?
 
-## Minimal Mistakes is all about:
+בבלוג "שוקה בשוק" אתאר מדי יום (כמעט) מצב או התרחשות מסויימת בישראל, בעיקר בהיבט הכלכלי. במלים פשוטות, בהגיון פשוט. במטרה שכולנו, יחד, נשכיל ונבין יותר על הכלכלה הישראלית, על היתרונות, החסרונות, הבעיות, והפתרונות.
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments -- content first.
-* Optional large feature images for posts and pages.
-* Simple and clear permalink structure.
-* [Custom 404 page](http://mmistakes.github.io/minimal-mistakes/404.html) to get you started.
-* Support for Disqus Comments
-
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+אשמח לקבל את תגובותיכם, רעיונות לפוסטים ועוד. ביחד, צעד אחר צעד, נצליח לשפר את המצב!
