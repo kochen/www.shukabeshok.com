@@ -1,7 +1,7 @@
 # Site wide configuration
 
-title:            Site Title
-locale:           en_US
+title:            שׁוּקה בְּשׁוֹק
+locale:           he_IL
 url:              
 
 
@@ -26,9 +26,9 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: שוקה זרנוביצקי
   avatar: bio-photo.jpg
-  bio: "Describe your self."
+  bio: "לי קוראים שוקה, ואני אזרח שאכפת לו. יש לי מספר תארים אקדמיים אבל לא בכלכלה."
   email: 
   disqus-shortname: 
   twitter: #username
