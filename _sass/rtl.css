@@ -1,0 +1,30 @@
+body {
+  direction: rtl; }
+
+.site-name,
+.article-author-side {
+  float: right;
+  margin-left: 4.16667%;
+  margin-right: 16.66667%; }
+
+.top-navigation {
+  float: right; }
+
+.top-navigation li {
+  margin-right: 0;
+  margin-left: 25px; }
+
+#index,
+#main .post,
+#main .page {
+  float: right; }
+
+.footer-wrap footer {
+  float: right;
+  margin-right: 33.33333%;
+  margin-left: 29.16667%; }
+
+.pull-right {
+  float: left; }
+
+/*# sourceMappingURL=rtl.css.map */
