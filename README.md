@@ -1,23 +1,7 @@
-# Minimal Mistakes
+# אודות "שוקה בשוק"
 
-**[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)** is a two column responsive Jekyll theme perfect for powering your GitHub hosted blog. 
+לי קוראים שוקה, ואני אזרח שאכפת לו. יש לי מספר תארים אקדמאים אבל לא בכלכלה. הרבה פעמים נדמה לי שכלכלנים משתמשים בשפה גבוהה כדי שלא ממש נבין... לרוב נראה גם שלעיתונות הכלכלית "הממוסדת" יש אג'נדה משלה... נכון?
 
-## Minimal Mistakes is all about:
+בבלוג "שוקה בשוק" אתאר מדי יום (כמעט) מצב או התרחשות מסויימת בישראל, בעיקר בהיבט הכלכלי. במלים פשוטות, בהגיון פשוט. במטרה שכולנו, יחד, נשכיל ונבין יותר על הכלכלה הישראלית, על היתרונות, החסרונות, הבעיות, והפתרונות.
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments -- content first.
-* Optional large feature images for posts and pages.
-* Simple and clear permalink structure.
-* [Custom 404 page](http://mmistakes.github.io/minimal-mistakes/404.html) to get you started.
-* Support for Disqus Comments
-
-![screenshot of Minimal Mistakes theme](http://mmistakes.github.io/minimal-mistakes/images/mm-theme-post-600.jpg)
-
-See a [live version of Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes/) hosted on GitHub.
-
-## Getting Started
-
-Minimal Mistakes takes advantage of Sass and data files to make customizing easier. These features require Jekyll 2.x and will not work with older versions of Jekyll.
-
-To learn how to install and use this theme check out the [Setup Guide](http://mmistakes.github.io/minimal-mistakes/theme-setup/) for more information.
+אשמח לקבל את תגובותיכם, רעיונות לפוסטים ועוד. ביחד, צעד אחר צעד, נצליח לשפר את המצב!
