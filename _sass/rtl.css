@@ -27,4 +27,8 @@ body {
 .pull-right {
   float: left; }
 
+p + p {
+  text-indent: 0;
+  margin-top: 1.625rem; }
+
 /*# sourceMappingURL=rtl.css.map */
