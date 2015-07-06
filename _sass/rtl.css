@@ -14,6 +14,9 @@ body {
   margin-right: 0;
   margin-left: 25px; }
 
+.nav button {
+  float: left; }
+
 #index,
 #main .post,
 #main .page {
