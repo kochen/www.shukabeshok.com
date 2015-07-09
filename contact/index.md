@@ -38,7 +38,6 @@ comments: false
             <button type="submit" class="btn btn-xl">שלח</button>
         </div>
     </div>
-    <input type="hidden" name="_cc" value="mtk@lighthost.co.il" />
     <input type="text" name="_gotcha" style="display:none" />
     <input type="hidden" name="_subject" value="שוקה, גם אני בשוק!" />
 </form>
