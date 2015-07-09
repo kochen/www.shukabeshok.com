@@ -11,15 +11,15 @@ comments: false
     <div class="row control-group">
         <div class="col-md-6">
             <div class="form-group">
-                <input type="text" class="form-control" placeholder="שם *" id="name" required data-validation-required-message="נא להזין שם.">
+                <input type="text" class="form-control" placeholder="שם *" id="name" name="name" required data-validation-required-message="נא להזין שם.">
                 <p class="help-block text-danger"></p>
             </div>
             <div class="form-group">
-                <input type="email" class="form-control" placeholder="אימייל *" id="email" required data-validation-required-message="נא להזין כתובת אימייל.">
+                <input type="email" class="form-control" placeholder="אימייל *" id="email" name="email" required data-validation-required-message="נא להזין כתובת אימייל.">
                 <p class="help-block text-danger"></p>
             </div>
             <div class="form-group">
-                <input type="url" class="form-control" placeholder="לינק לכתבה *" id="email" required
+                <input type="url" class="form-control" placeholder="לינק לכתבה *" id="website" name="website" required
                        data-validation-regex-regex="(http[s]?:\/\/){0,1}(www\.){0,1}[a-zA-Z0-9\.\-]+\.[a-zA-Z]{2,5}[\.]{0,1}"
                        data-validation-regex-message="נא להזין כתובת תקינה לכבתה" />
                 <p class="help-block text-danger"></p>
@@ -27,7 +27,7 @@ comments: false
         </div>
         <div class="col-md-6">
             <div class="form-group">
-                <textarea class="form-control" placeholder="הודעה *" id="message" required data-validation-required-message="נא לכתוב הודעה."></textarea>
+                <textarea class="form-control" placeholder="הודעה *" id="message" name="message" required data-validation-required-message="נא לכתוב הודעה."></textarea>
                 <p class="help-block text-danger"></p>
             </div>
         </div>
@@ -38,6 +38,7 @@ comments: false
             <button type="submit" class="btn btn-xl">שלח</button>
         </div>
     </div>
+    <input type="hidden" name="_cc" value="mtk@lighthost.co.il" />
     <input type="text" name="_gotcha" style="display:none" />
     <input type="hidden" name="_subject" value="שוקה, גם אני בשוק!" />
 </form>
