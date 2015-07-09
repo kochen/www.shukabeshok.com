@@ -21,3 +21,51 @@
 {% if page.comments %}
   {% include _disqus_comments.html %}
 {% endif %}
+
+<script>
+    // Contact Form Script
+    $(function() {
+        $("#contactForm").submit(function(e) {
+            e.preventDefault();
+            $.ajax({
+                url: "//formspree.io/shukabeshok@gmail.com",
+                method: "POST",
+                data: $(this).serialize(),
+                dataType: "json",
+                cache: false,
+                success: function(data){
+                    // Success message
+                    $('#success').html("<div class='alert alert-success'>");
+                    $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                            .append("</button>");
+                    $('#success > .alert-success')
+                            .append("<strong>ההודעה נשלחה.</strong>");
+                    $('#success > .alert-success')
+                            .append('</div>');
+
+                    //clear all fields
+                    $('#contactForm').trigger("reset");
+
+                    ga('send',
+                            'event',
+                            {
+                                eventCategory: 'contact',
+                                eventAction: 'Contact Us',
+                                eventLabel: 'Contact Form'
+                            }
+                    );
+                },
+                error: function(){
+                    // Fail message
+                    $('#success').html("<div class='alert alert-danger'>");
+                    $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                            .append("</button>");
+                    $('#success > .alert-danger').append("<strongאני בשוק! ישנה בעיה עם שרת הדואר. נא לנסות מאוחר יותר!!");
+                    $('#success > .alert-danger').append('</div>');
+                    //clear all fields
+                    $('#contactForm').trigger("reset");
+                }
+            });
+        });
+    });
+</script>
