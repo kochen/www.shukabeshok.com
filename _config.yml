@@ -3,7 +3,7 @@
 title:            שׁוּקה בְּשׁוֹק
 locale:           he_IL
 url:              http://www.shukabeshok.com
-
+keywords:         שוקה בשוק, כלכלה ישראל, עיתונות ישראל, שוקה צ'רנוביצקי, מחאה חברתית, שחיתות שלטונית, תקשורת ממומנת
 
 # Jekyll configuration
 
@@ -36,7 +36,7 @@ owner:
   google:
     plus: #username
     analytics: UA-64185212-1
-    verify: 
+    verify: 59uWUtjj5zRzky2MbvtFWYa3w7YpqfZ4HSnDby2nFYw
     ad-client: 
     ad-slot: 
   bing-verify: 
