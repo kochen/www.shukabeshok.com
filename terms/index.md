@@ -2,6 +2,7 @@
 layout: page
 title: תנאי שימוש באתר
 modified: 2015-17-06T20:53:07.573882-04:00
+excerpt: תנאי שימוש באתר שוקה בשוק
 comments: false
 ---
 
